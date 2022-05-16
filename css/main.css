@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.titulo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titulo li {
+  list-style: none;
+  flex: 1 1;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px;
+  background-color: coral;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.lista li {
+  border: solid 1px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* elige numero de paginas:  */
+
+.verPag {
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.verPag span {
+  font-size: 18px;
+}
+
+.selectForm {
+  width: 80%;
+  padding: 10px;
+  /* font-size: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectNum {
+  user-select: none;
+  font-size: 20px;
+}
+.btnSelectNum input {
+  font-size: 16px;
+  padding: 5px;
+}
+
+div#correcto {
+  background-color: chartreuse;
+  border: solid 1px;
+  padding: 10px;
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+/** BOTONES PARA INSERTAR */
+.botonesInsert {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  padding: 0px 7.5px;
+  justify-content: space-around;
+  align-content: center;
+  /* border: solid 1px; */
+}
+.botonesInsert input {
+  text-align: center;
+  /* flex: 1 1; */
+  width: 100%;
+  padding: 5px;
+  background-color: coral;
+  user-select: none;
+  cursor: pointer;
+  border: solid 1px white;
+}
+/** BOTONES PARA EDITAR */
+
+.botones {
+  display: flex;
+  flex-flow: row wrap;
+}
+.botones input {
+  border: solid 1px;
+  padding: 5px;
+  background-color: coral;
+  user-select: none;
+  cursor: pointer;
+  flex: 1 1;
+  border: solid 1px white;
+}
+
+.botones input:hover {
+  background-color: brown;
+  color: white;
+}

@@ -1,0 +1,61 @@
+.mainContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#formulario {
+  width: 50%;
+  border: solid 1px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#formulario label {
+  margin: 10px auto;
+  display: flex;
+  width: 80%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#formulario label input {
+  text-align: start;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.selectiId {
+  font-size: 20px;
+  width: 43%;
+}
+
+.botonesInsert {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.botonesInsert input {
+  border-style: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: tomato;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.botonesInsert input:hover {
+  background-color: brown;
+  color: white;
+}

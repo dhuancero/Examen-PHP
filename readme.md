@@ -1,0 +1,4 @@
+- Crear un Crud de todos los jugadores que juegue de center y center y otras posiciones
+- elegir el valor a mostrar 25, 50 ,100
+- solo muestra de center.
+- insertar en la poscion que necesite o no...

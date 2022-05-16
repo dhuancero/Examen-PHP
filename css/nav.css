@@ -1,0 +1,42 @@
+/* PAGINACION */
+.navPag {
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.paginacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.page-li {
+  list-style: none;
+  display: flex;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+}
+
+.page-li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.page-li a:hover {
+  color: white;
+  background-color: coral;
+}
+.active {
+  background-color: brown;
+  color: white;
+  border: solid 1px;
+}
