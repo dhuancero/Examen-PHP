@@ -3,7 +3,7 @@ function conexion()
 {
   $db = "nba";
 
-  $conn = mysqli_connect("localhost", "xxxxxx", "xxxxx");
+  $conn = mysqli_connect("localhost", "user", "1234");
   if (!$conn) {
 
     die("<p class='fallo'>Fallo de conexión: " . mysqli_connect_error() . "</p>");
